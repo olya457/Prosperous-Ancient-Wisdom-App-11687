@@ -1,0 +1,252 @@
+[
+  [
+    {
+      "question": "What does Ren primarily concern?",
+      "options": ["Wealth", "Humaneness", "Military strategy", "Competition"],
+      "answer": 1
+    },
+    {
+      "question": "What is Li associated with?",
+      "options": [
+        "Ritual propriety",
+        "Physical strength",
+        "Trade",
+        "Isolation"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What does Junzi describe in Confucian ethics?",
+      "options": [
+        "A wealthy merchant",
+        "A military officer",
+        "An exemplary person",
+        "A government building"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "What was an important goal of Confucian teaching?",
+      "options": [
+        "Avoiding education",
+        "Personal moral cultivation",
+        "Rejecting all relationships",
+        "Seeking wealth alone"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "What best describes Confucian harmony?",
+      "options": [
+        "Complete conformity",
+        "Avoiding responsibility",
+        "Cooperation with appropriate conduct",
+        "Eliminating differences"
+      ],
+      "answer": 2
+    }
+  ],
+  [
+    {
+      "question": "What does Xiao primarily concern?",
+      "options": [
+        "Family respect and responsibility",
+        "Military leadership",
+        "Financial planning",
+        "Artistic skill"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Which action demonstrates Xin?",
+      "options": [
+        "Breaking promises",
+        "Acting reliably",
+        "Avoiding communication",
+        "Concealing mistakes"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "What supports respectful communication?",
+      "options": [
+        "Interrupting others",
+        "Public criticism",
+        "Honest and considerate speech",
+        "Avoiding all disagreement"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "Can harmony exist without identical opinions?",
+      "options": [
+        "Yes",
+        "No",
+        "Only in formal ceremonies",
+        "Only among relatives"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "How can relationships support learning?",
+      "options": [
+        "By preventing reflection",
+        "By providing examples and feedback",
+        "By removing responsibility",
+        "By eliminating differences"
+      ],
+      "answer": 1
+    }
+  ],
+  [
+    {
+      "question": "What is Yi commonly associated with?",
+      "options": [
+        "Wealth",
+        "Righteousness",
+        "Entertainment",
+        "Physical ability"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "What demonstrates integrity?",
+      "options": [
+        "Concealing errors",
+        "Avoiding accountability",
+        "Acting consistently with ethical commitments",
+        "Changing principles for convenience"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "What supports intellectual humility?",
+      "options": [
+        "Rejecting feedback",
+        "Acknowledging uncertainty",
+        "Claiming complete knowledge",
+        "Avoiding questions"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "What is a constructive response to personal mistakes?",
+      "options": [
+        "Self-examination and correction",
+        "Blaming others",
+        "Ignoring consequences",
+        "Repeating the same behavior"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "How is moral character cultivated?",
+      "options": [
+        "Through social status alone",
+        "Through continuous learning and ethical practice",
+        "Through personal wealth",
+        "Through avoiding responsibility"
+      ],
+      "answer": 1
+    }
+  ],
+  [
+    {
+      "question": "What is a major purpose of Confucian education?",
+      "options": [
+        "Moral and intellectual development",
+        "Entertainment alone",
+        "Social isolation",
+        "Avoiding practical responsibilities"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Why is reflection important?",
+      "options": [
+        "It replaces all learning",
+        "It helps develop understanding",
+        "It prevents curiosity",
+        "It removes the need for experience"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "What should follow recognition of a mistake?",
+      "options": ["Denial", "Blame", "Reflection and correction", "Avoidance"],
+      "answer": 2
+    },
+    {
+      "question": "Which behavior supports curiosity?",
+      "options": [
+        "Rejecting unfamiliar ideas",
+        "Asking thoughtful questions",
+        "Avoiding research",
+        "Refusing feedback"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "What demonstrates applied knowledge?",
+      "options": [
+        "Memorization without understanding",
+        "Using learning to improve conduct",
+        "Ignoring practical situations",
+        "Avoiding decisions"
+      ],
+      "answer": 1
+    }
+  ],
+  [
+    {
+      "question": "What strengthens ethical leadership?",
+      "options": [
+        "Personal example",
+        "Authority without responsibility",
+        "Favoritism",
+        "Concealing mistakes"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What supports fair decisions?",
+      "options": [
+        "Personal preference alone",
+        "Considering relevant responsibilities and circumstances",
+        "Ignoring others",
+        "Avoiding evaluation"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "What is essential for trustworthy leadership?",
+      "options": [
+        "Unclear communication",
+        "Broken commitments",
+        "Honesty and consistency",
+        "Avoiding accountability"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "What does community responsibility involve?",
+      "options": [
+        "Ignoring wider consequences",
+        "Considering the effects of decisions on others",
+        "Pursuing personal benefit alone",
+        "Rejecting cooperation"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "Which qualities characterize exemplary leadership?",
+      "options": [
+        "Wealth and status",
+        "Strict control alone",
+        "Popularity without responsibility",
+        "Integrity, humility, and learning"
+      ],
+      "answer": 3
+    }
+  ]
+]

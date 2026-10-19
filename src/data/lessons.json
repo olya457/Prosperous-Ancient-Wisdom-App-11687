@@ -1,0 +1,527 @@
+[
+  {
+    "id": "1",
+    "module": 0,
+    "title": "Who Was Confucius?",
+    "sections": [
+      "Confucius was an influential Chinese teacher and philosopher who lived during the sixth and fifth centuries BCE. His teachings focused on moral character, education, responsible leadership, and respectful relationships.",
+      "Personal improvement and ethical conduct are essential foundations for creating a responsible and harmonious society.",
+      "Confucius lived during the Spring and Autumn period, when political instability and social changes influenced philosophical discussions about leadership, morality, and public responsibility. His teachings were later preserved and interpreted by generations of students and scholars.",
+      "A community leader encourages cooperation by demonstrating honesty, fairness, and responsibility rather than relying only on authority.",
+      "What was a central concern of Confucian philosophy?",
+      "Confucius emphasized personal development, ethical behavior, education, and responsible participation in society."
+    ],
+    "options": [
+      "Accumulating personal wealth",
+      "Developing moral character and responsible relationships",
+      "Avoiding all social responsibilities",
+      "Achieving success through competition alone"
+    ],
+    "answer": 1,
+    "explanation": "Confucian thought emphasizes moral cultivation, appropriate conduct, learning, and the responsibilities people have toward others."
+  },
+  {
+    "id": "2",
+    "module": 0,
+    "title": "Understanding Ren",
+    "sections": [
+      "Ren (仁) is one of the central concepts of Confucian philosophy. It is commonly translated as humaneness or benevolence and concerns how people should treat one another.",
+      "Humaneness involves consideration for others and the development of a character that supports ethical relationships.",
+      "Ren is discussed throughout the Analects, a collection of conversations and teachings associated with Confucius and his followers. Its meaning is explored through examples of conduct, relationships, and moral development.",
+      "A colleague struggles with a difficult assignment. You offer assistance while respecting their ability to complete the work independently.",
+      "Which action best demonstrates Ren?",
+      "Ren emphasizes humaneness, consideration, and the development of ethical relationships."
+    ],
+    "options": [
+      "Ignoring someone who needs reasonable assistance",
+      "Helping another person with consideration and respect",
+      "Supporting others only when rewarded",
+      "Using another person's difficulties for personal advantage"
+    ],
+    "answer": 1,
+    "explanation": "Helping others thoughtfully reflects the concern for human relationships associated with Ren."
+  },
+  {
+    "id": "3",
+    "module": 0,
+    "title": "The Meaning of Li",
+    "sections": [
+      "Li (禮) refers to ritual propriety, appropriate conduct, and established forms of respectful behavior.",
+      "Appropriate conduct helps express respect and supports constructive relationships within communities.",
+      "In early Confucian thought, Li included formal rituals, family practices, ceremonies, and everyday behavior. It was understood as more than external etiquette because meaningful conduct also required sincere intentions.",
+      "During an important discussion, you listen without interrupting and address participants respectfully.",
+      "What does Li primarily concern?",
+      "Li connects respectful intentions with appropriate behavior and established social practices."
+    ],
+    "options": [
+      "Respectful conduct and ritual propriety",
+      "Financial independence",
+      "Physical strength",
+      "Avoiding all traditions"
+    ],
+    "answer": 0,
+    "explanation": "Li concerns appropriate behavior, ritual practices, and the expression of respect in social relationships."
+  },
+  {
+    "id": "4",
+    "module": 0,
+    "title": "The Ideal of the Junzi",
+    "sections": [
+      "The term Junzi (君子) is commonly translated as exemplary person or noble person. In Confucian philosophy, it describes someone who cultivates moral character.",
+      "An exemplary person develops integrity, responsibility, knowledge, and consideration for others.",
+      "The meaning of Junzi evolved from an association with social status toward an ethical ideal based on personal cultivation and conduct.",
+      "A professional admits a mistake, corrects the problem, and accepts responsibility rather than blaming another person.",
+      "Which quality best reflects the Confucian ideal of Junzi?",
+      "The ideal of Junzi encourages people to develop character through learning, reflection, and responsible action."
+    ],
+    "options": [
+      "Social status alone",
+      "Personal wealth",
+      "Ethical conduct and continuous self-improvement",
+      "Authority without responsibility"
+    ],
+    "answer": 2,
+    "explanation": "The Junzi is associated with moral development and exemplary conduct rather than status alone."
+  },
+  {
+    "id": "5",
+    "module": 0,
+    "title": "Harmony in Society",
+    "sections": [
+      "Harmony is an important theme in Confucian philosophy. It concerns the relationships between individuals, families, communities, and political institutions.",
+      "Social harmony requires appropriate conduct, mutual responsibilities, and consideration for others.",
+      "Confucian thinkers examined how personal conduct and ethical leadership could contribute to stable social relationships.",
+      "Members of a team have different opinions but cooperate by listening respectfully and working toward shared objectives.",
+      "Which situation best represents Confucian harmony?",
+      "Confucian harmony emphasizes cooperation, respect, responsibility, and ethical relationships."
+    ],
+    "options": [
+      "Everyone must have identical opinions",
+      "People cooperate while respecting differences and responsibilities",
+      "One person makes every decision without discussion",
+      "Conflicts are always ignored"
+    ],
+    "answer": 1,
+    "explanation": "Harmony involves constructive relationships and appropriate conduct rather than complete uniformity."
+  },
+  {
+    "id": "6",
+    "module": 1,
+    "title": "The Importance of Filial Respect",
+    "sections": [
+      "Xiao (孝), commonly translated as filial piety, concerns respect and responsibility within family relationships.",
+      "Family relationships involve care, gratitude, consideration, and responsibilities between generations.",
+      "Filial piety became a major subject of Confucian ethical thought. Classical discussions emphasize respectful conduct toward parents and elders while also addressing the importance of moral judgment.",
+      "An adult regularly checks on an elderly parent, listens to their concerns, and helps arrange practical support when needed.",
+      "Which action best demonstrates filial respect?",
+      "Xiao emphasizes care, gratitude, and responsible relationships between family members."
+    ],
+    "options": [
+      "Ignoring family responsibilities",
+      "Offering thoughtful care and maintaining respectful communication",
+      "Agreeing with every family decision regardless of consequences",
+      "Helping relatives only when convenient"
+    ],
+    "answer": 1,
+    "explanation": "Filial respect involves meaningful consideration and responsible conduct, not necessarily unquestioning agreement."
+  },
+  {
+    "id": "7",
+    "module": 1,
+    "title": "Respectful Communication",
+    "sections": [
+      "Communication is an important part of maintaining constructive relationships. Confucian thought connects appropriate speech with sincerity and consideration.",
+      "Respectful communication requires attention to both the content of words and the way they are expressed.",
+      "The Analects includes discussions of speech, conduct, sincerity, and the importance of matching words with actions.",
+      "During a disagreement, you explain your concerns without insulting the other person.",
+      "Which communication approach best reflects respectful conduct?",
+      "Thoughtful speech can support understanding, preserve dignity, and improve cooperation."
+    ],
+    "options": [
+      "Interrupting to establish authority",
+      "Speaking honestly while considering the listener",
+      "Avoiding all difficult conversations",
+      "Using criticism to embarrass others"
+    ],
+    "answer": 1,
+    "explanation": "Respectful communication combines sincerity with consideration for others."
+  },
+  {
+    "id": "8",
+    "module": 1,
+    "title": "Trust and Reliability",
+    "sections": [
+      "Xin (信) is associated with trustworthiness, sincerity, and reliability.",
+      "Trust develops when people demonstrate consistency between their words and actions.",
+      "Confucian discussions of ethical conduct frequently emphasize the importance of being trustworthy in personal relationships and public responsibilities.",
+      "You promise to complete a shared task by Friday and communicate early if an unexpected problem affects the deadline.",
+      "What behavior most directly supports trust?",
+      "Xin emphasizes reliability, sincerity, and maintaining confidence in relationships."
+    ],
+    "options": [
+      "Making promises without considering them",
+      "Changing commitments without explanation",
+      "Acting reliably and communicating honestly",
+      "Avoiding responsibility"
+    ],
+    "answer": 2,
+    "explanation": "Trustworthiness requires honest communication and responsible behavior."
+  },
+  {
+    "id": "9",
+    "module": 1,
+    "title": "Learning Through Relationships",
+    "sections": [
+      "Confucian philosophy recognizes relationships as important opportunities for learning and moral development.",
+      "Interactions with others can help people recognize strengths, identify weaknesses, and improve their conduct.",
+      "The Analects frequently presents learning through conversations, observation, and reflection on the behavior of others.",
+      "A colleague demonstrates a constructive approach to criticism, inspiring you to improve your own communication.",
+      "How can relationships contribute to personal development?",
+      "Relationships offer opportunities to practice consideration, improve judgment, and learn from different experiences."
+    ],
+    "options": [
+      "By eliminating the need for self-reflection",
+      "By providing examples and opportunities for learning",
+      "By ensuring everyone behaves identically",
+      "By preventing disagreements"
+    ],
+    "answer": 1,
+    "explanation": "Observing and interacting with others can support learning and ethical reflection."
+  },
+  {
+    "id": "10",
+    "module": 1,
+    "title": "Harmony Without Uniformity",
+    "sections": [
+      "Confucian discussions distinguish harmonious relationships from simple agreement or conformity.",
+      "People can cooperate respectfully while maintaining different perspectives.",
+      "The Analects contrasts the exemplary person's pursuit of harmony with the tendency toward mere conformity.",
+      "Two friends disagree about an important issue but discuss their perspectives without allowing the disagreement to damage their mutual respect.",
+      "Which statement best describes harmony without uniformity?",
+      "Constructive relationships do not require identical beliefs or opinions."
+    ],
+    "options": [
+      "Everyone must agree",
+      "Differences make cooperation impossible",
+      "Respectful cooperation can exist alongside different opinions",
+      "Disagreement must always be avoided"
+    ],
+    "answer": 2,
+    "explanation": "Harmony can involve balancing differences through appropriate conduct and mutual respect."
+  },
+  {
+    "id": "11",
+    "module": 2,
+    "title": "The Meaning of Yi",
+    "sections": [
+      "Yi (義) is commonly translated as righteousness or moral appropriateness.",
+      "Ethical decisions should consider what is appropriate and just, rather than focusing only on personal advantage.",
+      "Confucian discussions frequently contrast righteousness with actions motivated exclusively by profit or self-interest.",
+      "You discover an error that benefits you financially and choose to report it because keeping the benefit would be unfair.",
+      "Which action best reflects Yi?",
+      "Yi encourages decisions guided by ethical judgment and fairness."
+    ],
+    "options": [
+      "Choosing personal benefit regardless of consequences",
+      "Acting according to ethical considerations even when inconvenient",
+      "Ignoring fairness",
+      "Following the most popular opinion automatically"
+    ],
+    "answer": 1,
+    "explanation": "Yi emphasizes moral appropriateness rather than personal advantage alone."
+  },
+  {
+    "id": "12",
+    "module": 2,
+    "title": "Integrity in Everyday Life",
+    "sections": [
+      "Integrity involves consistency between personal values, statements, and behavior.",
+      "A person's character becomes visible through everyday actions, especially when circumstances are difficult.",
+      "Confucian ethical teaching emphasizes cultivating character through repeated reflection and appropriate conduct.",
+      "You acknowledge that you made a mistake in a report instead of allowing another colleague to take responsibility.",
+      "What best demonstrates integrity?",
+      "Integrity develops when actions consistently reflect honesty and responsibility."
+    ],
+    "options": [
+      "Changing principles whenever convenient",
+      "Acting consistently with ethical commitments",
+      "Hiding mistakes to protect reputation",
+      "Avoiding difficult responsibilities"
+    ],
+    "answer": 1,
+    "explanation": "Integrity requires responsible behavior that reflects one's ethical commitments."
+  },
+  {
+    "id": "13",
+    "module": 2,
+    "title": "Humility and Self-Awareness",
+    "sections": [
+      "Humility supports learning by encouraging people to recognize the limits of their knowledge and abilities.",
+      "Understanding personal limitations creates opportunities for improvement.",
+      "Confucian educational thought values recognizing what one knows and acknowledging uncertainty about what one does not know.",
+      "You ask an experienced colleague for guidance when working with an unfamiliar process.",
+      "Which behavior demonstrates intellectual humility?",
+      "Humility strengthens learning, reflection, and responsible judgment."
+    ],
+    "options": [
+      "Pretending to understand everything",
+      "Rejecting feedback",
+      "Acknowledging uncertainty and seeking knowledge",
+      "Avoiding unfamiliar subjects"
+    ],
+    "answer": 2,
+    "explanation": "Intellectual humility involves recognizing limitations and remaining open to learning."
+  },
+  {
+    "id": "14",
+    "module": 2,
+    "title": "Responsibility for Personal Actions",
+    "sections": [
+      "Confucian ethics emphasizes the importance of examining personal conduct.",
+      "Personal responsibility begins with recognizing how your decisions and behavior affect others.",
+      "Self-examination and moral cultivation are recurring themes in the Confucian tradition.",
+      "After a disagreement, you review your own behavior and acknowledge where your communication could have been more constructive.",
+      "What is an important part of personal responsibility?",
+      "Self-examination helps individuals recognize responsibilities and improve future behavior."
+    ],
+    "options": [
+      "Blaming others automatically",
+      "Avoiding reflection",
+      "Evaluating your actions and correcting mistakes",
+      "Refusing to change established habits"
+    ],
+    "answer": 2,
+    "explanation": "Responsible conduct includes examining mistakes and taking appropriate corrective action."
+  },
+  {
+    "id": "15",
+    "module": 2,
+    "title": "Developing Moral Character",
+    "sections": [
+      "Confucian philosophy treats moral development as an ongoing process rather than a fixed personal characteristic.",
+      "Character is cultivated through learning, reflection, and repeated ethical action.",
+      "The ideal of the Junzi emphasizes the importance of continuing moral improvement throughout life.",
+      "You develop a habit of reviewing important decisions and considering whether your actions reflected fairness and responsibility.",
+      "How is moral character developed in Confucian thought?",
+      "Developing character requires consistent attention to behavior, responsibilities, and personal improvement."
+    ],
+    "options": [
+      "Through status alone",
+      "Through continuous learning and ethical practice",
+      "Through avoiding responsibilities",
+      "Through competition without limits"
+    ],
+    "answer": 1,
+    "explanation": "Confucian moral cultivation involves sustained learning, reflection, and appropriate conduct."
+  },
+  {
+    "id": "16",
+    "module": 3,
+    "title": "The Value of Education",
+    "sections": [
+      "Education is a central theme in Confucian philosophy. Learning is valued not only for acquiring information but also for developing character.",
+      "Education should support understanding, judgment, and responsible behavior.",
+      "Confucius is remembered as a teacher who emphasized learning and moral cultivation. The Analects records discussions about study, teaching, and personal improvement.",
+      "You study a new subject and consider how the knowledge could improve your decisions or responsibilities.",
+      "What is a major purpose of education in Confucian philosophy?",
+      "Education supports the development of knowledge, judgment, and ethical character."
+    ],
+    "options": [
+      "Acquiring status alone",
+      "Developing knowledge and moral understanding",
+      "Avoiding practical responsibilities",
+      "Memorizing information without reflection"
+    ],
+    "answer": 1,
+    "explanation": "Confucian education connects intellectual learning with moral cultivation."
+  },
+  {
+    "id": "17",
+    "module": 3,
+    "title": "Learning and Reflection",
+    "sections": [
+      "Studying information and reflecting on its meaning are complementary activities.",
+      "Learning becomes more useful when new ideas are examined, questioned, and connected to experience.",
+      "The Analects discusses the relationship between study and reflection as important parts of intellectual development.",
+      "After reading an article about leadership, you compare its ideas with your experiences and identify a principle worth applying.",
+      "Why is reflection important in learning?",
+      "Study and reflection work together to strengthen understanding."
+    ],
+    "options": [
+      "It replaces the need to study",
+      "It helps connect knowledge with understanding",
+      "It prevents new ideas",
+      "It makes practical experience unnecessary"
+    ],
+    "answer": 1,
+    "explanation": "Reflection helps learners examine and interpret information rather than simply collecting it."
+  },
+  {
+    "id": "18",
+    "module": 3,
+    "title": "Learning from Mistakes",
+    "sections": [
+      "Mistakes can reveal limitations in knowledge, preparation, or judgment.",
+      "Recognizing errors and making appropriate corrections are important parts of personal improvement.",
+      "Confucian teachings encourage self-examination and the willingness to correct one's conduct.",
+      "You miss an important deadline and review the planning process to prevent the same problem in the future.",
+      "What is a constructive response to a mistake?",
+      "Mistakes become learning opportunities when they lead to reflection and corrective action."
+    ],
+    "options": [
+      "Ignore it completely",
+      "Blame someone else",
+      "Identify the cause and make improvements",
+      "Repeat the same approach without reflection"
+    ],
+    "answer": 2,
+    "explanation": "Learning from mistakes requires acknowledging problems and considering practical changes."
+  },
+  {
+    "id": "19",
+    "module": 3,
+    "title": "The Importance of Curiosity",
+    "sections": [
+      "Curiosity encourages people to explore unfamiliar ideas and deepen their understanding.",
+      "Meaningful learning requires openness to questions and a willingness to investigate.",
+      "Confucian educational traditions emphasize inquiry, discussion, and the active participation of students.",
+      "You encounter an unfamiliar historical concept and research its meaning rather than relying on assumptions.",
+      "Which behavior best supports curiosity?",
+      "Curiosity supports continuous learning and intellectual development."
+    ],
+    "options": [
+      "Avoiding unfamiliar topics",
+      "Asking thoughtful questions and exploring new ideas",
+      "Rejecting information that challenges assumptions",
+      "Studying only familiar subjects"
+    ],
+    "answer": 1,
+    "explanation": "Curiosity encourages investigation and the development of deeper understanding."
+  },
+  {
+    "id": "20",
+    "module": 3,
+    "title": "Applying Knowledge in Practice",
+    "sections": [
+      "Knowledge becomes more meaningful when it influences how people act.",
+      "Learning should contribute to practical judgment and responsible behavior.",
+      "Confucian thought connects moral understanding with conduct in everyday relationships and social responsibilities.",
+      "After learning about trustworthiness, you improve how you communicate deadlines and commitments.",
+      "Which action best demonstrates applied learning?",
+      "The practical value of knowledge becomes visible through thoughtful action."
+    ],
+    "options": [
+      "Memorizing a principle without considering its meaning",
+      "Using a learned principle to improve practical behavior",
+      "Avoiding situations that require judgment",
+      "Studying only to receive recognition"
+    ],
+    "answer": 1,
+    "explanation": "Applied learning connects understanding with practical conduct."
+  },
+  {
+    "id": "21",
+    "module": 4,
+    "title": "Leadership Through Virtue",
+    "sections": [
+      "Confucian political philosophy places significant importance on the moral character of leaders.",
+      "Leadership becomes more credible when authority is supported by ethical conduct.",
+      "The Analects discusses government and leadership through virtue, emphasizing the influence of a ruler's personal example.",
+      "A team manager follows the same standards of honesty and responsibility expected from employees.",
+      "What strengthens leadership according to Confucian ethical thought?",
+      "Ethical leadership requires responsible behavior and consistency between words and actions."
+    ],
+    "options": [
+      "Authority without accountability",
+      "Ethical conduct and personal example",
+      "Avoiding responsibility",
+      "Demanding respect without demonstrating it"
+    ],
+    "answer": 1,
+    "explanation": "Confucian leadership emphasizes virtue and the influence of exemplary conduct."
+  },
+  {
+    "id": "22",
+    "module": 4,
+    "title": "Fairness and Responsibility",
+    "sections": [
+      "Responsible leaders must consider how their decisions affect other people.",
+      "Fairness requires evaluating responsibilities, circumstances, and relevant ethical considerations.",
+      "Confucian discussions of government examine the importance of appropriate conduct, justice, and responsible administration.",
+      "A supervisor distributes work based on skills, availability, and project needs rather than personal favoritism.",
+      "Which decision best reflects responsible leadership?",
+      "Fair leadership involves thoughtful judgment and consideration of others."
+    ],
+    "options": [
+      "Favoring close friends regardless of circumstances",
+      "Considering relevant needs and responsibilities fairly",
+      "Ignoring the consequences for others",
+      "Making decisions only for personal benefit"
+    ],
+    "answer": 1,
+    "explanation": "Responsible leadership considers fairness and the practical effects of decisions."
+  },
+  {
+    "id": "23",
+    "module": 4,
+    "title": "The Importance of Trust",
+    "sections": [
+      "Trust is essential for cooperation between leaders and the people who depend on their decisions.",
+      "Reliable leadership requires honesty, consistency, and responsible communication.",
+      "Confucian political thought places importance on trust between governing authorities and the population.",
+      "A project leader communicates honestly about delays and explains the steps being taken to address them.",
+      "What behavior helps establish trust in leadership?",
+      "Trustworthiness is an important foundation of effective and responsible leadership."
+    ],
+    "options": [
+      "Concealing important information",
+      "Making promises without intention to fulfill them",
+      "Communicating honestly and acting consistently",
+      "Avoiding difficult conversations"
+    ],
+    "answer": 2,
+    "explanation": "Trust develops when communication and behavior remain reliable."
+  },
+  {
+    "id": "24",
+    "module": 4,
+    "title": "Responsibility to the Community",
+    "sections": [
+      "Confucian thought considers individuals part of wider networks of relationships and responsibilities.",
+      "Personal decisions should take into account their effects on families, communities, and other people.",
+      "Confucian ethical and political traditions connect personal cultivation with responsibilities toward society.",
+      "A business owner considers how operational changes may affect employees, customers, and the surrounding community.",
+      "Which approach best reflects community responsibility?",
+      "Responsible conduct extends beyond individual interests to relationships and community well-being."
+    ],
+    "options": [
+      "Considering only personal convenience",
+      "Ignoring the needs of others",
+      "Evaluating how decisions affect the wider community",
+      "Avoiding cooperation"
+    ],
+    "answer": 2,
+    "explanation": "Community responsibility involves considering how personal or institutional actions affect others."
+  },
+  {
+    "id": "25",
+    "module": 4,
+    "title": "Becoming an Exemplary Leader",
+    "sections": [
+      "The Confucian ideal of an exemplary person provides a model for responsible leadership.",
+      "Effective leadership involves moral cultivation, thoughtful judgment, humility, and commitment to ethical conduct.",
+      "Confucian discussions of the Junzi emphasize personal character and appropriate behavior as important qualities of individuals with social responsibilities.",
+      "A manager encourages learning, accepts constructive criticism, communicates honestly, and takes responsibility for team decisions.",
+      "Which combination best represents exemplary leadership?",
+      "Leadership grounded in virtue requires ongoing learning, ethical judgment, and responsible action."
+    ],
+    "options": [
+      "Authority, personal advantage, and strict control",
+      "Integrity, responsibility, humility, and continuous learning",
+      "Popularity without accountability",
+      "Confidence without reflection"
+    ],
+    "answer": 1,
+    "explanation": "Exemplary leadership is associated with ethical character, responsible conduct, and continued self-improvement."
+  }
+]

@@ -1,0 +1,362 @@
+[
+  {
+    "id": "1",
+    "title": "The Strength of Patience",
+    "category": "Patience & Self-Control",
+    "tradition": "Daoism",
+    "meaning": "Patience allows you to observe a situation before reacting. A thoughtful response often creates better opportunities than an immediate emotional reaction.",
+    "example": "During a disagreement at work, you listen to the other person's concerns before explaining your position.",
+    "practice": "Before responding to a frustrating situation, pause and identify the result you want to achieve.",
+    "question": "When has a patient response helped you avoid an unnecessary conflict?"
+  },
+  {
+    "id": "2",
+    "title": "Mastering Your Reactions",
+    "category": "Patience & Self-Control",
+    "tradition": "Confucianism",
+    "meaning": "Self-control involves recognizing emotions without allowing them to determine every action. Respectful behavior becomes easier when you consider the consequences of your words.",
+    "example": "Someone makes an unfair comment about your work. Instead of responding angrily, you ask for clarification and explain your perspective calmly.",
+    "practice": "Identify one situation that commonly triggers frustration and prepare a constructive response.",
+    "question": "Which emotional reactions would you like to manage more effectively?"
+  },
+  {
+    "id": "3",
+    "title": "The Value of Silence",
+    "category": "Patience & Self-Control",
+    "tradition": "Daoism",
+    "meaning": "Silence can create opportunities for observation and understanding. Not every situation requires an immediate opinion or explanation.",
+    "example": "During a group discussion, you listen carefully before contributing your thoughts.",
+    "practice": "During one conversation, focus on listening without interrupting.",
+    "question": "What can you learn by speaking less and observing more?"
+  },
+  {
+    "id": "4",
+    "title": "Respond Without Anger",
+    "category": "Patience & Self-Control",
+    "tradition": "Confucianism",
+    "meaning": "Anger can narrow your attention and make disagreements more difficult to resolve. A measured response helps preserve respect while addressing problems directly.",
+    "example": "A family member forgets an important responsibility. You explain the consequences and discuss a solution instead of blaming them.",
+    "practice": "When irritation appears, describe the problem using neutral language.",
+    "question": "How does your communication change when you respond without anger?"
+  },
+  {
+    "id": "5",
+    "title": "Allow Time for Understanding",
+    "category": "Patience & Self-Control",
+    "tradition": "Daoism",
+    "meaning": "Some situations become clearer through observation and experience. Accepting uncertainty can prevent unnecessary pressure to reach immediate conclusions.",
+    "example": "You receive an unexpected professional opportunity but take time to understand its requirements before accepting.",
+    "practice": "Identify one decision that does not require an immediate answer and give yourself time to evaluate it.",
+    "question": "Where could additional time improve your understanding?"
+  },
+  {
+    "id": "6",
+    "title": "Discipline Through Small Actions",
+    "category": "Patience & Self-Control",
+    "tradition": "Confucianism",
+    "meaning": "Personal discipline develops through consistent behavior. Small actions repeated regularly can strengthen responsibility and self-awareness.",
+    "example": "Instead of attempting to change your entire daily routine, you establish one realistic learning habit.",
+    "practice": "Choose one useful action that you can complete consistently for the next seven days.",
+    "question": "Which small habit could improve your daily routine?"
+  },
+  {
+    "id": "7",
+    "title": "Respect Begins with Listening",
+    "category": "Harmony & Relationships",
+    "tradition": "Confucianism",
+    "meaning": "Respect involves giving others the opportunity to express their thoughts. Listening carefully helps you understand perspectives that may differ from your own.",
+    "example": "A friend shares a problem. Instead of immediately offering advice, you ask questions and listen to their experience.",
+    "practice": "Give someone your full attention during a conversation.",
+    "question": "How can better listening improve one of your relationships?"
+  },
+  {
+    "id": "8",
+    "title": "Harmony Without Agreement",
+    "category": "Harmony & Relationships",
+    "tradition": "Confucianism",
+    "meaning": "Maintaining harmony does not require agreeing with everyone. People can express different opinions while treating one another respectfully.",
+    "example": "Two colleagues disagree about a project but continue working together by focusing on shared goals.",
+    "practice": "Practice expressing a different opinion without criticizing the other person.",
+    "question": "How can you maintain respect during disagreement?"
+  },
+  {
+    "id": "9",
+    "title": "Kindness in Everyday Actions",
+    "category": "Harmony & Relationships",
+    "tradition": "Confucianism",
+    "meaning": "Consideration for others is expressed through practical behavior. Small acts of kindness can strengthen trust and cooperation.",
+    "example": "You notice that a colleague is overwhelmed and offer assistance with a manageable task.",
+    "practice": "Complete one thoughtful action that makes another person's day easier.",
+    "question": "What small gesture of kindness could you offer today?"
+  },
+  {
+    "id": "10",
+    "title": "Understanding Different Perspectives",
+    "category": "Harmony & Relationships",
+    "tradition": "Mohism",
+    "meaning": "Fair consideration requires looking beyond personal preferences. Understanding how a situation affects others can support more balanced decisions.",
+    "example": "Before changing a shared schedule, you ask everyone involved how the adjustment would affect their responsibilities.",
+    "practice": "Consider a current situation from the perspective of another person involved.",
+    "question": "What might you be overlooking about someone else's experience?"
+  },
+  {
+    "id": "11",
+    "title": "Responsibility in Relationships",
+    "category": "Harmony & Relationships",
+    "tradition": "Confucianism",
+    "meaning": "Healthy relationships depend on mutual consideration and responsible behavior. Keeping commitments demonstrates reliability and respect.",
+    "example": "You promised to help a friend prepare for an important event and organize your schedule to honor that commitment.",
+    "practice": "Review one commitment you have made and take a practical step toward fulfilling it.",
+    "question": "How do your actions demonstrate reliability?"
+  },
+  {
+    "id": "12",
+    "title": "Cooperation Over Competition",
+    "category": "Harmony & Relationships",
+    "tradition": "Mohism",
+    "meaning": "Cooperation can create benefits that individual competition may not achieve. Shared problems often require solutions that consider everyone affected.",
+    "example": "Two team members combine their knowledge to complete a difficult task rather than competing for recognition.",
+    "practice": "Find one opportunity to collaborate with someone toward a shared goal.",
+    "question": "Where could cooperation produce a better result than competition?"
+  },
+  {
+    "id": "13",
+    "title": "Lead Through Example",
+    "category": "Leadership & Responsibility",
+    "tradition": "Confucianism",
+    "meaning": "Leadership is strengthened when actions reflect the standards expected from others. Consistent behavior can build credibility and trust.",
+    "example": "A team leader arrives prepared, respects deadlines, and communicates clearly rather than demanding standards they do not follow.",
+    "practice": "Identify one behavior you expect from others and demonstrate it yourself.",
+    "question": "What example do your everyday actions set?"
+  },
+  {
+    "id": "14",
+    "title": "Responsibility Before Recognition",
+    "category": "Leadership & Responsibility",
+    "tradition": "Confucianism",
+    "meaning": "Fulfilling responsibilities should not depend entirely on receiving praise. Reliable action contributes to the well-being of groups and communities.",
+    "example": "You complete an important task carefully even when your contribution is unlikely to receive public attention.",
+    "practice": "Complete one responsibility without seeking recognition.",
+    "question": "What motivates you to fulfill your commitments?"
+  },
+  {
+    "id": "15",
+    "title": "Fairness in Decision-Making",
+    "category": "Leadership & Responsibility",
+    "tradition": "Mohism",
+    "meaning": "Fair decisions consider the needs and consequences experienced by different people. Personal preference should not automatically outweigh the interests of others.",
+    "example": "A manager distributes responsibilities according to availability and skills rather than personal friendships.",
+    "practice": "Review a recent decision and consider whether everyone involved was treated fairly.",
+    "question": "How can you reduce personal bias when making decisions?"
+  },
+  {
+    "id": "16",
+    "title": "Strength Through Humility",
+    "category": "Leadership & Responsibility",
+    "tradition": "Daoism",
+    "meaning": "Humility allows a person to recognize limitations and remain open to learning. A willingness to listen can strengthen leadership and judgment.",
+    "example": "A project manager acknowledges an error and invites the team to suggest improvements.",
+    "practice": "Ask someone for feedback about an area where you could improve.",
+    "question": "How might humility help you become more effective?"
+  },
+  {
+    "id": "17",
+    "title": "Think Beyond Immediate Results",
+    "category": "Leadership & Responsibility",
+    "tradition": "Confucianism",
+    "meaning": "Responsible action considers more than short-term convenience. Decisions should account for commitments, relationships, and possible future consequences.",
+    "example": "You choose a sustainable work schedule instead of repeatedly accepting unrealistic deadlines.",
+    "practice": "Evaluate one current decision by considering its possible consequences over the next month.",
+    "question": "Which long-term responsibility deserves more attention?"
+  },
+  {
+    "id": "18",
+    "title": "Use Influence Responsibly",
+    "category": "Leadership & Responsibility",
+    "tradition": "Mohism",
+    "meaning": "Influence creates opportunities to benefit others but also carries responsibilities. Ethical choices consider how personal authority affects the wider group.",
+    "example": "A supervisor uses their position to provide clear guidance and fair opportunities rather than favoring particular employees.",
+    "practice": "Identify one situation where your actions influence another person and consider how to use that influence constructively.",
+    "question": "How can your decisions create practical benefits for others?"
+  },
+  {
+    "id": "19",
+    "title": "The Beauty of Simplicity",
+    "category": "Simplicity & Balance",
+    "tradition": "Daoism",
+    "meaning": "Simplicity can help you focus on what is necessary and meaningful. Removing unnecessary complications may make everyday responsibilities easier to manage.",
+    "example": "You organize your workspace by keeping only the materials required for your current tasks.",
+    "practice": "Simplify one part of your daily routine.",
+    "question": "What unnecessary complication could you remove from your life?"
+  },
+  {
+    "id": "20",
+    "title": "Balance Effort and Rest",
+    "category": "Simplicity & Balance",
+    "tradition": "Daoism",
+    "meaning": "Continuous effort without adequate rest can reduce effectiveness. A balanced routine allows time for action, recovery, and reflection.",
+    "example": "You organize demanding work into focused periods with appropriate breaks.",
+    "practice": "Review your schedule and identify one opportunity to create a healthier balance between activity and rest.",
+    "question": "Which part of your routine requires more balance?"
+  },
+  {
+    "id": "21",
+    "title": "Avoid Unnecessary Struggle",
+    "category": "Simplicity & Balance",
+    "tradition": "Daoism",
+    "meaning": "Not every obstacle requires greater force. Sometimes adjusting your approach is more effective than continuing the same unsuccessful effort.",
+    "example": "A project becomes difficult because the original plan no longer fits the circumstances. You revise the process rather than repeating ineffective steps.",
+    "practice": "Identify one difficult task and consider a simpler alternative approach.",
+    "question": "Where might flexibility be more useful than persistence?"
+  },
+  {
+    "id": "22",
+    "title": "Appreciate What Is Enough",
+    "category": "Simplicity & Balance",
+    "tradition": "Daoism",
+    "meaning": "Recognizing sufficiency can reduce unnecessary comparison and excessive pursuit of more. Understanding personal needs helps clarify priorities.",
+    "example": "Before purchasing another item, you consider whether your current belongings already meet your needs.",
+    "practice": "Identify three things in your daily life that already serve you well.",
+    "question": "How do you determine when something is sufficient?"
+  },
+  {
+    "id": "23",
+    "title": "Create Space for Reflection",
+    "category": "Simplicity & Balance",
+    "tradition": "Daoism",
+    "meaning": "A schedule filled with constant activity leaves little opportunity for thoughtful observation. Moments of quiet can help you reconsider priorities.",
+    "example": "You reserve a short period each evening to review the day without distractions.",
+    "practice": "Spend five minutes reflecting on your day without using your phone.",
+    "question": "What becomes clearer when you reduce distractions?"
+  },
+  {
+    "id": "24",
+    "title": "Flexibility Creates Balance",
+    "category": "Simplicity & Balance",
+    "tradition": "Daoism",
+    "meaning": "Balance does not always mean maintaining a fixed routine. Adapting to changing circumstances can be an important part of acting effectively.",
+    "example": "Unexpected responsibilities change your schedule, so you reorganize your priorities instead of trying to follow the original plan exactly.",
+    "practice": "Identify one expectation you can adjust to accommodate a new situation.",
+    "question": "How can flexibility help you respond to change?"
+  },
+  {
+    "id": "25",
+    "title": "Learning Never Ends",
+    "category": "Knowledge & Learning",
+    "tradition": "Confucianism",
+    "meaning": "Learning is an ongoing process that extends beyond formal education. New experiences provide opportunities to improve understanding and judgment.",
+    "example": "You dedicate time each week to learning a skill related to your personal interests or professional responsibilities.",
+    "practice": "Spend ten minutes learning something useful or unfamiliar.",
+    "question": "What subject would you like to understand more deeply?"
+  },
+  {
+    "id": "26",
+    "title": "Knowledge Through Questions",
+    "category": "Knowledge & Learning",
+    "tradition": "Confucianism",
+    "meaning": "Asking thoughtful questions helps reveal gaps in understanding. Curiosity encourages deeper learning and reduces unsupported assumptions.",
+    "example": "During a meeting, you ask for an explanation of an unfamiliar process instead of pretending to understand it.",
+    "practice": "Ask one meaningful question about something you want to learn.",
+    "question": "What have you avoided asking because you were uncertain?"
+  },
+  {
+    "id": "27",
+    "title": "Reflect on What You Learn",
+    "category": "Knowledge & Learning",
+    "tradition": "Confucianism",
+    "meaning": "Information becomes more useful when you examine its meaning and relevance. Reflection helps connect new knowledge with previous experiences.",
+    "example": "After completing a training session, you write down three ideas and how you might apply them.",
+    "practice": "Choose one thing you learned recently and describe its practical value.",
+    "question": "How has a recent learning experience changed your perspective?"
+  },
+  {
+    "id": "28",
+    "title": "Learn from Different People",
+    "category": "Knowledge & Learning",
+    "tradition": "Confucianism",
+    "meaning": "Useful knowledge can come from people with different experiences and backgrounds. Remaining open to other perspectives expands understanding.",
+    "example": "You ask a colleague from another department to explain how they approach a familiar problem.",
+    "practice": "Learn one practical idea from someone whose experience differs from yours.",
+    "question": "Who could teach you something valuable today?"
+  },
+  {
+    "id": "29",
+    "title": "Turn Knowledge into Action",
+    "category": "Knowledge & Learning",
+    "tradition": "Confucianism",
+    "meaning": "Understanding a principle is only one part of learning. Applying knowledge through practical behavior helps reveal its strengths and limitations.",
+    "example": "After reading about respectful communication, you practice asking clarifying questions during a difficult conversation.",
+    "practice": "Select one idea you recently learned and apply it to a real situation.",
+    "question": "Which useful lesson have you not yet put into practice?"
+  },
+  {
+    "id": "30",
+    "title": "Recognize What You Do Not Know",
+    "category": "Knowledge & Learning",
+    "tradition": "Confucianism",
+    "meaning": "Awareness of personal limitations is an important part of learning. Admitting uncertainty creates opportunities to investigate and improve understanding.",
+    "example": "You encounter a complex topic and decide to research it before expressing a confident opinion.",
+    "practice": "Identify one assumption you hold and consider what evidence would help you evaluate it.",
+    "question": "Where could greater intellectual humility improve your judgment?"
+  },
+  {
+    "id": "31",
+    "title": "Change Is Part of Life",
+    "category": "Change & Adaptability",
+    "tradition": "Daoism",
+    "meaning": "Circumstances continually evolve. Recognizing change as a normal part of experience can encourage more flexible planning and expectations.",
+    "example": "A project changes direction, and you adjust your responsibilities to meet the new requirements.",
+    "practice": "Identify one recent change and describe an opportunity it may create.",
+    "question": "What change are you currently finding difficult to accept?"
+  },
+  {
+    "id": "32",
+    "title": "Adapt Without Losing Direction",
+    "category": "Change & Adaptability",
+    "tradition": "Daoism",
+    "meaning": "Flexibility does not require abandoning your values or goals. You can change your methods while maintaining a clear sense of purpose.",
+    "example": "Your original learning schedule becomes impractical, so you adopt shorter study sessions while keeping the same educational goal.",
+    "practice": "Identify one goal and consider an alternative way to work toward it.",
+    "question": "Which method could you change without abandoning your objective?"
+  },
+  {
+    "id": "33",
+    "title": "Observe Before Acting",
+    "category": "Change & Adaptability",
+    "tradition": "Daoism",
+    "meaning": "Understanding changing circumstances can help you respond appropriately. Observation provides information that immediate action may overlook.",
+    "example": "Before responding to an unexpected workplace change, you gather information about the new expectations.",
+    "practice": "Choose one uncertain situation and list the information you still need.",
+    "question": "What could you understand better before taking action?"
+  },
+  {
+    "id": "34",
+    "title": "Learn from Unexpected Outcomes",
+    "category": "Change & Adaptability",
+    "tradition": "Confucianism",
+    "meaning": "Results that differ from expectations can provide valuable lessons. Reviewing your actions helps identify what can be improved in future situations.",
+    "example": "A presentation does not go as planned, so you review the preparation process and identify improvements for next time.",
+    "practice": "Reflect on one recent disappointment and identify a practical lesson.",
+    "question": "What have unexpected results taught you about your approach?"
+  },
+  {
+    "id": "35",
+    "title": "Let Go of Fixed Expectations",
+    "category": "Change & Adaptability",
+    "tradition": "Daoism",
+    "meaning": "Strong attachment to one specific outcome can make adaptation difficult. Remaining open to alternatives allows you to respond to new information.",
+    "example": "A planned event is canceled, and you use the available time for another meaningful activity.",
+    "practice": "Identify one expectation that could be adjusted without compromising something important.",
+    "question": "How might greater openness change your response to uncertainty?"
+  },
+  {
+    "id": "36",
+    "title": "Growth Through Adjustment",
+    "category": "Change & Adaptability",
+    "tradition": "Daoism",
+    "meaning": "Personal development often involves revising familiar habits and approaches. Small adjustments can help you respond more effectively to changing needs.",
+    "example": "You realize that your current study method is ineffective and experiment with a different approach.",
+    "practice": "Choose one daily habit and make a small adjustment that could improve its usefulness.",
+    "question": "What is one change you could make to support your current goals?"
+  }
+]

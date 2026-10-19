@@ -1,45 +1,45 @@
-/**
- * Sample React Native App
- * https://github.com/facebook/react-native
- *
- * @format
- */
-
-import { NewAppScreen } from '@react-native/new-app-screen';
-import { StatusBar, StyleSheet, useColorScheme, View } from 'react-native';
-import {
-  SafeAreaProvider,
-  useSafeAreaInsets,
-} from 'react-native-safe-area-context';
-
-function App() {
-  const isDarkMode = useColorScheme() === 'dark';
-
+import React, { useCallback, useState } from 'react';
+import { StatusBar, View, Text, StyleSheet } from 'react-native';
+import { SafeAreaProvider } from 'react-native-safe-area-context';
+import { AppStore, useStore } from './src/store/AppStore';
+import { AppNavigator } from './src/navigation/AppNavigator';
+import { Splash, Onboarding } from './src/screens/Welcome';
+import { Button } from './src/components/UI';
+import { MotionProvider } from './src/components/Motion';
+import { colors, s } from './src/theme';
+function AppContent() {
+  const { state, ready, error, retry } = useStore();
+  const [loaded, setLoaded] = useState(false);
+  const done = useCallback(() => setLoaded(true), []);
+  if (error)
+    return (
+      <View style={styles.error}>
+        <Text style={s.heading}>Your journal could not be opened</Text>
+        <Text style={s.body}>Please try loading your saved data again.</Text>
+        <Button title="Try again" onPress={retry} />
+      </View>
+    );
+  if (!loaded || !ready) return <Splash onDone={done} />;
+  return state.onboarded ? <AppNavigator /> : <Onboarding />;
+}
+export default function App() {
   return (
     <SafeAreaProvider>
-      <StatusBar barStyle={isDarkMode ? 'light-content' : 'dark-content'} />
-      <AppContent />
+      <StatusBar barStyle="light-content" backgroundColor={colors.bg} />
+      <MotionProvider>
+        <AppStore>
+          <AppContent />
+        </AppStore>
+      </MotionProvider>
     </SafeAreaProvider>
   );
 }
-
-function AppContent() {
-  const safeAreaInsets = useSafeAreaInsets();
-
-  return (
-    <View style={styles.container}>
-      <NewAppScreen
-        templateFileName="App.tsx"
-        safeAreaInsets={safeAreaInsets}
-      />
-    </View>
-  );
-}
-
 const styles = StyleSheet.create({
-  container: {
+  error: {
     flex: 1,
+    backgroundColor: colors.bg,
+    justifyContent: 'center',
+    padding: 24,
+    gap: 18,
   },
 });
-
-export default App;
