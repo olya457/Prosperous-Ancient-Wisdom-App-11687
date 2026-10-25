@@ -1,10 +1,10 @@
 import React, { useCallback, useState } from 'react';
-import { StatusBar, View, Text, StyleSheet } from 'react-native';
-import { SafeAreaProvider } from 'react-native-safe-area-context';
+import { StatusBar, Text, StyleSheet } from 'react-native';
+import { SafeAreaProvider, SafeAreaView } from 'react-native-safe-area-context';
 import { AppStore, useStore } from './src/store/AppStore';
 import { AppNavigator } from './src/navigation/AppNavigator';
 import { Splash, Onboarding } from './src/screens/Welcome';
-import { Button } from './src/components/UI';
+import { Button, ScreenBackground } from './src/components/UI';
 import { MotionProvider } from './src/components/Motion';
 import { colors, s } from './src/theme';
 function AppContent() {
@@ -13,11 +13,13 @@ function AppContent() {
   const done = useCallback(() => setLoaded(true), []);
   if (error)
     return (
-      <View style={styles.error}>
-        <Text style={s.heading}>Your journal could not be opened</Text>
-        <Text style={s.body}>Please try loading your saved data again.</Text>
-        <Button title="Try again" onPress={retry} />
-      </View>
+      <ScreenBackground>
+        <SafeAreaView style={styles.error}>
+          <Text style={s.heading}>Your journal could not be opened</Text>
+          <Text style={s.body}>Please try loading your saved data again.</Text>
+          <Button title="Try again" onPress={retry} />
+        </SafeAreaView>
+      </ScreenBackground>
     );
   if (!loaded || !ready) return <Splash onDone={done} />;
   return state.onboarded ? <AppNavigator /> : <Onboarding />;
@@ -25,7 +27,7 @@ function AppContent() {
 export default function App() {
   return (
     <SafeAreaProvider>
-      <StatusBar barStyle="light-content" backgroundColor={colors.bg} />
+      <StatusBar barStyle="dark-content" backgroundColor={colors.bg} />
       <MotionProvider>
         <AppStore>
           <AppContent />
@@ -37,7 +39,6 @@ export default function App() {
 const styles = StyleSheet.create({
   error: {
     flex: 1,
-    backgroundColor: colors.bg,
     justifyContent: 'center',
     padding: 24,
     gap: 18,

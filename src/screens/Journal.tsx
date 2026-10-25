@@ -139,7 +139,7 @@ export function EntryForm({ route }: ScreenProps<'EntryForm'>) {
           maxLength={10}
         />
         {!validDate(entry.date) && (
-          <Text style={{ color: colors.orange }}>
+          <Text style={{ color: colors.accent }}>
             Enter a valid date in YYYY-MM-DD format.
           </Text>
         )}
@@ -454,7 +454,7 @@ export function Statistics() {
                   style={{
                     width: '100%',
                     height: x.count ? Math.max(8, (x.count / maximum) * 70) : 2,
-                    backgroundColor: colors.gold,
+                    backgroundColor: colors.accent,
                     borderRadius: 3,
                   }}
                 />

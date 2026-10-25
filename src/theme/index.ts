@@ -1,15 +1,19 @@
 import { Platform, StyleSheet } from 'react-native';
 export const colors = {
-  bg: '#170E10',
-  card: '#251719',
-  raised: '#301C1E',
-  border: '#422B2B',
-  text: '#F1E8DB',
-  muted: '#AC9D98',
-  gold: '#D79A42',
-  red: '#A92F27',
-  orange: '#D35531',
+  bg: '#C5DFA3',
+  card: '#F8FAE9',
+  raised: '#EAF0CD',
+  border: '#A3B77C',
+  text: '#193D2B',
+  muted: '#4E6343',
+  accent: '#35633B',
+  primary: '#245936',
+  primaryEnd: '#3D7240',
+  onPrimary: '#FFFDEB',
+  selected: '#DFEBAE',
+  yellow: '#F5E99B',
 };
+export const backgroundGradient = [colors.bg, '#E0E8A5', colors.yellow];
 export const serif = Platform.select({ ios: 'Georgia', android: 'serif' });
 export const s = StyleSheet.create({
   body: { color: colors.muted, fontSize: 14, lineHeight: 22 },
@@ -26,7 +30,7 @@ export const s = StyleSheet.create({
     lineHeight: 26,
   },
   label: {
-    color: colors.gold,
+    color: colors.accent,
     fontSize: 10,
     fontWeight: '700',
     letterSpacing: 1.7,

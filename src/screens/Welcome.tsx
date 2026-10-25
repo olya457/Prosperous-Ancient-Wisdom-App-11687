@@ -3,7 +3,6 @@ import {
   View,
   Text,
   Image,
-  ImageBackground,
   StyleSheet,
   ScrollView,
   Pressable,
@@ -15,9 +14,9 @@ import { assets } from '../data';
 import { colors, s, serif } from '../theme';
 import { Reveal, ScenicImage, useReducedMotion } from '../components/Motion';
 import { useResponsive } from '../hooks/useResponsive';
-import { Button } from '../components/UI';
+import { Button, ScreenBackground } from '../components/UI';
 import { useStore } from '../store/AppStore';
-const animation = `<!DOCTYPE html><html><head><meta name="viewport" content="width=device-width,initial-scale=1"><style>html,body{margin:0;background:transparent;overflow:hidden}.track{width:120px;height:4px;background:#ffffff26;margin:20px auto;border-radius:4px;overflow:hidden}.bar{height:100%;background:linear-gradient(90deg,#a52e23,#ef974c);transform-origin:left;animation:load 4s linear forwards}@keyframes load{from{transform:scaleX(0)}to{transform:scaleX(1)}}</style></head><body><div class="track"><div class="bar"></div></div><script>document.querySelector('.bar').addEventListener('animationend',function(){window.ReactNativeWebView.postMessage('complete')})</script></body></html>`;
+const animation = `<!DOCTYPE html><html><head><meta name="viewport" content="width=device-width,initial-scale=1"><style>html,body{margin:0;background:transparent;overflow:hidden}.track{width:120px;height:4px;background:${colors.border};margin:20px auto;border-radius:4px;overflow:hidden}.bar{height:100%;background:linear-gradient(90deg,${colors.primary},${colors.accent});transform-origin:left;animation:load 4s linear forwards}@keyframes load{from{transform:scaleX(0)}to{transform:scaleX(1)}}</style></head><body><div class="track"><div class="bar"></div></div><script>document.querySelector('.bar').addEventListener('animationend',function(){window.ReactNativeWebView.postMessage('complete')})</script></body></html>`;
 export function Splash({ onDone }: { onDone: () => void }) {
   const { width, height, short } = useResponsive();
   const reduced = useReducedMotion();
@@ -28,12 +27,11 @@ export function Splash({ onDone }: { onDone: () => void }) {
     return () => clearTimeout(timer);
   }, [loaded, onDone]);
   return (
-    <ImageBackground source={assets.splash} style={w.fill}>
+    <ScreenBackground>
       <View
         style={[
           w.fill,
           {
-            backgroundColor: '#29130D55',
             justifyContent: 'center',
             alignItems: 'center',
             padding: 24,
@@ -60,17 +58,17 @@ export function Splash({ onDone }: { onDone: () => void }) {
             marginTop: height * (short ? 0.04 : 0.09),
           }}
         >
-          Prosperous Ancient
+          Ancient Mind Garden
         </Text>
         <Text
           style={{
-            letterSpacing: 4,
-            color: '#382513',
+            letterSpacing: 1.2,
+            color: colors.muted,
             fontSize: 12,
             marginTop: 14,
           }}
         >
-          Wisdom App
+          Daily wisdom · Personal growth
         </Text>
         <View
           style={{ position: 'absolute', bottom: 34, width: 160, height: 45 }}
@@ -98,7 +96,7 @@ export function Splash({ onDone }: { onDone: () => void }) {
           />
         </View>
       </View>
-    </ImageBackground>
+    </ScreenBackground>
   );
 }
 const slides = [
@@ -130,105 +128,111 @@ export function Onboarding() {
   const { update } = useStore();
   const finish = () => update(v => ({ ...v, onboarded: true }));
   return (
-    <SafeAreaView edges={['bottom', 'left', 'right']} style={w.fill}>
-      <ScrollView
-        style={w.scroll}
-        contentInsetAdjustmentBehavior="never"
-        contentContainerStyle={{
-          flexGrow: 1,
-          width: '100%',
-          maxWidth: 640,
-          alignSelf: 'center',
-        }}
-      >
-        <Reveal revision={step}>
-          <View style={{ height: onboardingImageHeight, overflow: 'hidden' }}>
-            <ScenicImage source={assets.onboarding[step]} revision={step} />
-            <LinearGradient
-              pointerEvents="none"
-              colors={['#00000015', '#170E1033', colors.bg]}
-              style={StyleSheet.absoluteFill}
-            />
-            <View style={w.overlay}>
-              <SafeAreaView
-                edges={['top']}
-                style={{ alignItems: 'flex-end', padding: 18 }}
-              >
-                <Pressable
-                  onPress={finish}
-                  accessibilityRole="button"
+    <ScreenBackground>
+      <SafeAreaView edges={['bottom', 'left', 'right']} style={w.fill}>
+        <ScrollView
+          style={w.scroll}
+          contentInsetAdjustmentBehavior="never"
+          contentContainerStyle={{
+            flexGrow: 1,
+            width: '100%',
+            maxWidth: 640,
+            alignSelf: 'center',
+          }}
+        >
+          <Reveal revision={step}>
+            <View style={{ height: onboardingImageHeight, overflow: 'hidden' }}>
+              <ScenicImage source={assets.onboarding[step]} revision={step} />
+              <LinearGradient
+                pointerEvents="none"
+                colors={['#C5DFA320', '#C5DFA360', '#D5E4A4']}
+                style={StyleSheet.absoluteFill}
+              />
+              <View style={w.overlay}>
+                <SafeAreaView
+                  edges={['top']}
+                  style={{ alignItems: 'flex-end', padding: 18 }}
+                >
+                  <Pressable
+                    onPress={finish}
+                    accessibilityRole="button"
+                    style={{
+                      backgroundColor: colors.card,
+                      padding: 14,
+                      borderRadius: 30,
+                    }}
+                  >
+                    <Text style={{ color: colors.text }}>Skip</Text>
+                  </Pressable>
+                </SafeAreaView>
+                <View
                   style={{
-                    backgroundColor: '#784321AA',
-                    padding: 14,
-                    borderRadius: 30,
+                    position: 'absolute',
+                    bottom: 30,
+                    left: 22,
+                    backgroundColor: colors.selected,
+                    borderColor: colors.accent,
+                    borderWidth: 1,
+                    borderRadius: 5,
+                    padding: 9,
                   }}
                 >
-                  <Text style={{ color: colors.text }}>Skip</Text>
-                </Pressable>
-              </SafeAreaView>
-              <View
-                style={{
-                  position: 'absolute',
-                  bottom: 30,
-                  left: 22,
-                  backgroundColor: '#862924',
-                  borderColor: '#BE6A3E',
-                  borderWidth: 1,
-                  borderRadius: 5,
-                  padding: 9,
-                }}
-              >
-                <Text style={{ fontSize: 26, color: colors.gold }}>道</Text>
+                  <Text style={{ fontSize: 26, color: colors.accent }}>道</Text>
+                </View>
               </View>
             </View>
-          </View>
-        </Reveal>
-        <Reveal revision={step} delay={90} style={{ padding: gutter, gap: 15 }}>
-          <Text style={s.label}>Ancient Wisdom · 0{step + 1}</Text>
-          <Text
-            style={[
-              s.title,
-              { fontSize: onboardingTitle, lineHeight: onboardingTitle + 5 },
-            ]}
+          </Reveal>
+          <Reveal
+            revision={step}
+            delay={90}
+            style={{ padding: gutter, gap: 15 }}
           >
-            {slides[step][0]}
-          </Text>
-          <Text style={s.body}>{slides[step][1]}</Text>
-        </Reveal>
-      </ScrollView>
-      <View
-        style={[
-          w.footer,
-          {
-            paddingHorizontal: gutter,
-            flexDirection: stacked ? 'column' : 'row',
-            alignItems: stacked ? 'stretch' : 'center',
-          },
-        ]}
-      >
-        <View style={[s.row, { gap: 5 }]}>
-          {slides.map((_, i) => (
-            <View
-              key={i}
-              style={{
-                width: i === step ? 23 : 5,
-                height: 5,
-                borderRadius: 4,
-                backgroundColor: i === step ? colors.gold : '#614944',
-              }}
-            />
-          ))}
+            <Text style={s.label}>Ancient Mind Garden · 0{step + 1}</Text>
+            <Text
+              style={[
+                s.title,
+                { fontSize: onboardingTitle, lineHeight: onboardingTitle + 5 },
+              ]}
+            >
+              {slides[step][0]}
+            </Text>
+            <Text style={s.body}>{slides[step][1]}</Text>
+          </Reveal>
+        </ScrollView>
+        <View
+          style={[
+            w.footer,
+            {
+              paddingHorizontal: gutter,
+              flexDirection: stacked ? 'column' : 'row',
+              alignItems: stacked ? 'stretch' : 'center',
+            },
+          ]}
+        >
+          <View style={[s.row, { gap: 5 }]}>
+            {slides.map((_, i) => (
+              <View
+                key={i}
+                style={{
+                  width: i === step ? 23 : 5,
+                  height: 5,
+                  borderRadius: 4,
+                  backgroundColor: i === step ? colors.accent : colors.border,
+                }}
+              />
+            ))}
+          </View>
+          <Button
+            title={step === 4 ? 'Get Started  →' : 'Continue  →'}
+            onPress={() => (step === 4 ? finish() : setStep(step + 1))}
+          />
         </View>
-        <Button
-          title={step === 4 ? 'Get Started  →' : 'Continue  →'}
-          onPress={() => (step === 4 ? finish() : setStep(step + 1))}
-        />
-      </View>
-    </SafeAreaView>
+      </SafeAreaView>
+    </ScreenBackground>
   );
 }
 const w = StyleSheet.create({
-  fill: { flex: 1, backgroundColor: colors.bg },
+  fill: { flex: 1 },
   overlay: { flex: 1 },
   scroll: { flex: 1 },
   footer: {
@@ -240,6 +244,5 @@ const w = StyleSheet.create({
     gap: 16,
     paddingTop: 16,
     paddingBottom: 16,
-    backgroundColor: colors.bg,
   },
 });

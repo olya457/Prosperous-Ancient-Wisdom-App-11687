@@ -175,7 +175,7 @@ export function LessonScreen({ route }: ScreenProps<'Lesson'>) {
                 onPress={() => setAnswer(i)}
                 style={[
                   s.card,
-                  { borderColor: answer === i ? colors.orange : colors.border },
+                  { borderColor: answer === i ? colors.accent : colors.border },
                 ]}
               >
                 <Text style={s.body}>
@@ -325,7 +325,7 @@ export function QuizScreen({ route }: ScreenProps<'Quiz'>) {
                 onPress={() => setAnswers(v => [...v, i])}
                 style={[
                   s.card,
-                  { borderColor: answer === i ? colors.orange : colors.border },
+                  { borderColor: answer === i ? colors.accent : colors.border },
                 ]}
               >
                 <Text style={s.body}>

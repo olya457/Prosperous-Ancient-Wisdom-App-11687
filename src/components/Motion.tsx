@@ -12,6 +12,7 @@ import {
   StyleProp,
   ViewStyle,
 } from 'react-native';
+import { colors } from '../theme';
 const Preferences = createContext(false);
 export const MotionScene = createContext<{
   active: boolean;
@@ -184,7 +185,7 @@ export function GoldenAccent() {
       style={{
         width: 64,
         height: 2,
-        backgroundColor: '#D79A42',
+        backgroundColor: colors.accent,
         opacity: progress,
         transform: [{ scaleX: progress }],
       }}

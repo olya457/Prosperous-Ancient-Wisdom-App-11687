@@ -35,7 +35,7 @@ export function WisdomHome() {
     principles[todayIndex(principles.length, new Date(`${today}T12:00:00`))];
   return (
     <Page
-      title="Ancient Wisdom"
+      title="Ancient Mind Garden"
       subtitle="A daily practice"
       action={
         <Pressable
@@ -69,7 +69,7 @@ export function WisdomHome() {
           <Text style={s.label}>Today's principle · {p.tradition}</Text>
           <Text style={s.heading}>{p.title}</Text>
           <Text style={s.body}>{p.meaning}</Text>
-          <View style={[s.card, { backgroundColor: '#382019' }]}>
+          <View style={[s.card, { backgroundColor: colors.raised }]}>
             <Text style={s.label}>Today's practice</Text>
             <Text style={s.body}>{p.practice}</Text>
           </View>
@@ -96,7 +96,7 @@ export function WisdomHome() {
             >
               <Icon
                 name="bookmark"
-                color={state.saved.includes(p.id) ? colors.gold : colors.text}
+                color={state.saved.includes(p.id) ? colors.accent : colors.text}
               />
             </Pressable>
           </View>
@@ -204,7 +204,7 @@ export function WisdomDetail({ route }: ScreenProps<'WisdomDetail'>) {
             }}
           >
             <Text style={s.heading}>
-              <Text style={{ color: colors.orange, fontSize: 14 }}>
+              <Text style={{ color: colors.accent, fontSize: 14 }}>
                 0{i + 1}{' '}
               </Text>
               {title}
@@ -366,13 +366,13 @@ export function History() {
                       paddingHorizontal: 2,
                       alignItems: 'center',
                       backgroundColor:
-                        key === dateKey() ? '#843C29' : 'transparent',
+                        key === dateKey() ? colors.selected : 'transparent',
                       borderRadius: 20,
                     }}
                   >
                     <Text
                       style={{
-                        color: active ? colors.gold : colors.muted,
+                        color: active ? colors.accent : colors.muted,
                         fontSize: 12,
                       }}
                     >

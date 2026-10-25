@@ -4,7 +4,7 @@ import { colors } from '../theme';
 export function Icon({
   name,
   size = 22,
-  color = colors.gold,
+  color = colors.accent,
 }: {
   name: string;
   size?: number;

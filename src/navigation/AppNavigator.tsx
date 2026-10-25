@@ -3,7 +3,7 @@ import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import { useResponsive } from '../hooks/useResponsive';
 import { useReducedMotion } from '../components/Motion';
 import { Text } from 'react-native';
-import { NavigationContainer, DarkTheme } from '@react-navigation/native';
+import { NavigationContainer, DefaultTheme } from '@react-navigation/native';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import { Routes } from './types';
@@ -74,10 +74,10 @@ export function AppNavigator() {
   return (
     <NavigationContainer
       theme={{
-        ...DarkTheme,
+        ...DefaultTheme,
         colors: {
-          ...DarkTheme.colors,
-          primary: colors.gold,
+          ...DefaultTheme.colors,
+          primary: colors.accent,
           background: colors.bg,
           card: colors.bg,
           text: colors.text,
@@ -91,14 +91,14 @@ export function AppNavigator() {
           animation: reduced ? 'none' : 'fade',
           tabBarLabelPosition: 'below-icon',
           tabBarStyle: {
-            backgroundColor: '#1D1214',
+            backgroundColor: colors.card,
             borderTopColor: colors.border,
             paddingTop: 8,
             height: insets.bottom + Math.max(58, 44 * fontScale),
             paddingBottom: insets.bottom,
           },
-          tabBarActiveTintColor: colors.gold,
-          tabBarInactiveTintColor: '#927E7B',
+          tabBarActiveTintColor: colors.accent,
+          tabBarInactiveTintColor: colors.muted,
           tabBarLabel: ({ color }) => (
             <Text style={{ fontSize: 9, color, marginBottom: 4 }}>
               {route.name}

@@ -14,7 +14,7 @@ import {
 } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import LinearGradient from 'react-native-linear-gradient';
-import { colors, s, serif } from '../theme';
+import { backgroundGradient, colors, s, serif } from '../theme';
 import { useNav } from '../navigation/types';
 import { useIsFocused } from '@react-navigation/native';
 import { useResponsive } from '../hooks/useResponsive';
@@ -26,6 +26,18 @@ import {
   usePressMotion,
 } from './Motion';
 import { Icon } from './Icon';
+export function ScreenBackground({ children }: { children: React.ReactNode }) {
+  return (
+    <LinearGradient
+      colors={backgroundGradient}
+      start={{ x: 0, y: 0 }}
+      end={{ x: 1, y: 1 }}
+      style={{ flex: 1 }}
+    >
+      {children}
+    </LinearGradient>
+  );
+}
 export function Button({
   title,
   onPress,
@@ -62,14 +74,27 @@ export function Button({
             colors={
               secondary
                 ? [colors.raised, colors.card]
-                : [colors.red, colors.orange]
+                : [colors.primary, colors.primaryEnd]
             }
             start={{ x: 0, y: 0 }}
             end={{ x: 1, y: 1 }}
             style={StyleSheet.absoluteFill}
           />
-          {icon && <Icon name={icon} color={colors.text} size={17} />}
-          <Text style={u.buttonText}>{title}</Text>
+          {icon && (
+            <Icon
+              name={icon}
+              color={secondary ? colors.text : colors.onPrimary}
+              size={17}
+            />
+          )}
+          <Text
+            style={[
+              u.buttonText,
+              { color: secondary ? colors.text : colors.onPrimary },
+            ]}
+          >
+            {title}
+          </Text>
         </View>
       </Pressable>
     </Animated.View>
@@ -99,47 +124,49 @@ export function Page({
   }, [scrollKey]);
   return (
     <MotionScene.Provider value={{ active, revision: scrollKey }}>
-      <SafeAreaView edges={['top', 'left', 'right']} style={u.flex}>
-        <View style={[u.header, { paddingHorizontal: gutter }]}>
-          {back ? (
-            <Pressable
-              accessibilityLabel="Go back"
-              accessibilityRole="button"
-              onPress={() => nav.goBack()}
-              style={u.touch}
-            >
-              <Icon name="back" color={colors.text} />
-            </Pressable>
-          ) : (
-            <View style={u.seal}>
-              <Text style={u.sealText}>道</Text>
-            </View>
-          )}
-          <View style={u.flex}>
-            <Text style={[u.headerTitle, { fontSize: compact ? 16 : 18 }]}>
-              {title}
-            </Text>
-            {subtitle && (
-              <Text style={u.subtitle}>{subtitle.toUpperCase()}</Text>
+      <ScreenBackground>
+        <SafeAreaView edges={['top', 'left', 'right']} style={u.flex}>
+          <View style={[u.header, { paddingHorizontal: gutter }]}>
+            {back ? (
+              <Pressable
+                accessibilityLabel="Go back"
+                accessibilityRole="button"
+                onPress={() => nav.goBack()}
+                style={u.touch}
+              >
+                <Icon name="back" color={colors.text} />
+              </Pressable>
+            ) : (
+              <View style={u.seal}>
+                <Text style={u.sealText}>道</Text>
+              </View>
             )}
+            <View style={u.flex}>
+              <Text style={[u.headerTitle, { fontSize: compact ? 16 : 18 }]}>
+                {title}
+              </Text>
+              {subtitle && (
+                <Text style={u.subtitle}>{subtitle.toUpperCase()}</Text>
+              )}
+            </View>
+            {action}
           </View>
-          {action}
-        </View>
-        <KeyboardAvoidingView
-          style={u.flex}
-          behavior={Platform.OS === 'ios' ? 'padding' : undefined}
-          keyboardVerticalOffset={0}
-        >
-          <ScrollView
-            ref={scroll}
-            keyboardShouldPersistTaps="handled"
-            keyboardDismissMode="on-drag"
-            contentContainerStyle={u.content}
+          <KeyboardAvoidingView
+            style={u.flex}
+            behavior={Platform.OS === 'ios' ? 'padding' : undefined}
+            keyboardVerticalOffset={0}
           >
-            {children}
-          </ScrollView>
-        </KeyboardAvoidingView>
-      </SafeAreaView>
+            <ScrollView
+              ref={scroll}
+              keyboardShouldPersistTaps="handled"
+              keyboardDismissMode="on-drag"
+              contentContainerStyle={u.content}
+            >
+              {children}
+            </ScrollView>
+          </KeyboardAvoidingView>
+        </SafeAreaView>
+      </ScreenBackground>
     </MotionScene.Provider>
   );
 }
@@ -168,7 +195,7 @@ export function Hero({
         </View>
         <LinearGradient
           pointerEvents="none"
-          colors={['transparent', colors.bg]}
+          colors={['#E0E8A599', '#E0E8A5F5']}
           style={StyleSheet.absoluteFill}
         />
         <View
@@ -189,7 +216,9 @@ export function Hero({
               {title}
             </Text>
             {description && (
-              <Text style={[s.body, { color: '#CFC0B5' }]}>{description}</Text>
+              <Text style={[s.body, { color: colors.muted }]}>
+                {description}
+              </Text>
             )}
             {children}
           </View>
@@ -254,7 +283,7 @@ export function Field({
         onChangeText={onChange}
         multiline={multiline}
         placeholder={placeholder}
-        placeholderTextColor="#82716E"
+        placeholderTextColor={colors.muted}
         maxLength={maxLength}
         style={[
           s.input,
@@ -288,8 +317,8 @@ export function Chips({
             style={[
               u.chip,
               selected && {
-                backgroundColor: '#702923',
-                borderColor: '#A74332',
+                backgroundColor: colors.selected,
+                borderColor: colors.accent,
               },
             ]}
           >
@@ -357,7 +386,7 @@ export function Select({
                   <Text
                     style={[
                       s.body,
-                      { color: item === value ? colors.gold : colors.text },
+                      { color: item === value ? colors.accent : colors.text },
                     ]}
                   >
                     {item}
@@ -404,7 +433,7 @@ export function Progress({ value }: { value: number }) {
       style={u.track}
     >
       <LinearGradient
-        colors={[colors.red, colors.gold]}
+        colors={[colors.primary, colors.accent]}
         start={{ x: 0, y: 0 }}
         end={{ x: 1, y: 0 }}
         style={{
@@ -437,7 +466,9 @@ export function Stats({
             padding: 5,
           }}
         >
-          <Text style={{ fontFamily: serif, fontSize: 25, color: colors.gold }}>
+          <Text
+            style={{ fontFamily: serif, fontSize: 25, color: colors.accent }}
+          >
             {item.value}
           </Text>
           <Text
@@ -492,7 +523,7 @@ export function Row({
   );
 }
 const u = StyleSheet.create({
-  flex: { flex: 1, backgroundColor: colors.bg },
+  flex: { flex: 1 },
   header: {
     paddingHorizontal: 16,
     paddingVertical: 12,
@@ -520,12 +551,12 @@ const u = StyleSheet.create({
     height: 34,
     borderRadius: 5,
     borderWidth: 1,
-    borderColor: '#B6553D',
-    backgroundColor: '#822622',
+    borderColor: colors.accent,
+    backgroundColor: colors.selected,
     alignItems: 'center',
     justifyContent: 'center',
   },
-  sealText: { color: colors.gold, fontSize: 23 },
+  sealText: { color: colors.accent, fontSize: 23 },
   touch: { minWidth: 44, minHeight: 44, justifyContent: 'center' },
   content: {
     paddingBottom: 32,

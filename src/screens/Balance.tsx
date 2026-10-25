@@ -249,8 +249,8 @@ function Timer({
             width: orbSize,
             borderRadius: 90,
             borderWidth: 1,
-            borderColor: '#81502E',
-            backgroundColor: '#34231D',
+            borderColor: colors.accent,
+            backgroundColor: colors.selected,
             alignItems: 'center',
             justifyContent: 'center',
             transform: [{ scale }],
@@ -262,14 +262,14 @@ function Timer({
               width: orbSize - 22,
               borderRadius: 80,
               borderWidth: 1,
-              borderColor: '#604026',
+              borderColor: colors.border,
               alignItems: 'center',
               justifyContent: 'center',
               gap: 12,
             }}
           >
             <Icon name="balance" size={27} />
-            <Text style={{ color: colors.gold, fontSize: 13 }}>
+            <Text style={{ color: colors.accent, fontSize: 13 }}>
               {!started
                 ? 'When you’re ready'
                 : !running
@@ -550,7 +550,11 @@ export function PracticeComplete({ route }: ScreenProps<'PracticeComplete'>) {
           <View
             style={[
               s.card,
-              { borderRadius: 80, padding: 25, backgroundColor: '#5B241E' },
+              {
+                borderRadius: 80,
+                padding: 25,
+                backgroundColor: colors.selected,
+              },
             ]}
           >
             <Icon name="check" size={32} />

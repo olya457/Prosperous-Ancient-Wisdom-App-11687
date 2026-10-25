@@ -400,7 +400,7 @@ export function DecisionFlow({ route }: ScreenProps<'DecisionFlow'>) {
                     flexDirection: 'row',
                     alignItems: 'center',
                     borderColor:
-                      data.selected === option ? colors.orange : colors.border,
+                      data.selected === option ? colors.accent : colors.border,
                   },
                 ]}
               >
