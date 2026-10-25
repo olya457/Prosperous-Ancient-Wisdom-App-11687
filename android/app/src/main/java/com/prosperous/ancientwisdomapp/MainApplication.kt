@@ -1,4 +1,4 @@
-package com.prosperousancientwisdomapp
+package com.prosperous.ancientwisdomapp
 
 import android.app.Application
 import com.facebook.react.PackageList
